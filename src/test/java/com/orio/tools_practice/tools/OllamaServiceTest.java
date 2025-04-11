@@ -36,4 +36,10 @@ public class OllamaServiceTest {
         System.out.println("Response: " + response);
     }
 
+    @Test
+    public void testDataSetRetrieval() {
+        String response = ollamaService.getAnswerBasedOnDataSet();
+        System.out.println("Response: " + response);
+    }
+
 }

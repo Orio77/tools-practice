@@ -161,3 +161,67 @@ The reference text for this answer can be found here:
 
 The found text for reference:
 This is a found text: "Aristotelians hold that the mind is able to think about something by instantiating the essence of the object of thought.[22] So while thinking about trees, the mind instantiates tree-ness. This instantiation does not happen in matter, as is the case for actual trees, but in mind, though the universal essence instantiated in both cases is the same.[22] In contrast to Platonism, these universals are not understood as Platonic forms existing in a changeless intelligible world.[28] Instead, they only exist to the extent that they are instantiated. The mind learns to discriminate universals through abstraction from experience.[29] This explanation avoids various of the objections raised against Platonism.[28]"
+2025-04-11 10:43:31 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.orio.tools_practice.tools.OllamaServiceTest]: OllamaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-11 10:43:31 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.orio.tools_practice.ToolsPracticeApplication for test class com.orio.tools_practice.tools.OllamaServiceTest
+2025-04-11 10:43:31 INFO  c.o.t.tools.OllamaServiceTest - Starting OllamaServiceTest using Java 21 with PID 13004 (started by macie in C:\Users\macie\tools\tools-practice)
+2025-04-11 10:43:31 INFO  c.o.t.tools.OllamaServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-11 10:43:33 INFO  c.o.t.tools.OllamaServiceTest - Started OllamaServiceTest in 2.039 seconds (process running for 3.093)
+2025-04-11 10:43:34 INFO  c.o.t.service.OllamaService - Prompt: Search for a text on the following topic: 'thought', process it for q&a and return it to me. Provide the found text for reference. Note: correct the json format if needed.
+2025-04-11 10:44:31 INFO  c.o.t.service.OllamaService - Response from chat client: {
+    "text": "Aristotelians hold that the mind is able to think about something by instantiating the essence of the object of thought.[22] So while thinking about trees, the mind instantiates tree-ness. This instantiation does not happen in matter, as is the case for actual trees, but in mind, though the universal essence instantiated in both cases is the same.[22] In contrast to Platonism, these universals are not understood as Platonic forms existing in a changeless intelligible world.[28] Instead, they only exist to the extent that they are instantiated. The mind learns to discriminate universals through abstraction from experience.[29] This explanation avoids various of the objections raised against Platonism.[28]
+
+Conceptualism is closely related to Aristotelianism. It states that thinking consists in mentally evoking concepts. Some of these concepts may be innate, but most have to be learned through abstraction from sense experience before they can be used in thought.[22]
+
+It has been argued against these views that they have problems in accounting for the logical form of thought. For example, to think that it will either rain or snow, it is not sufficient to instantiate the essences of rain and snow or to evoke the corresponding concepts. The reason for this is that the disjunctive relation between the rain and the snow is not captured this way.[22] Another problem shared by these positions is the difficulty of giving a satisfying account of how essences or concepts are learned by the mind through abstraction.[22]
+
+",
+    "qna": [
+        {
+            "question": "What is the difference between Aristotelianism and Platonism regarding universals?",
+            "answer": "Unlike Platonism, Aristotelianism states that universals only exist to the extent that they are instantiated and not as changeless forms in an intelligible world."
+        }
+    ]
+}
+2025-04-11 10:44:31 INFO  c.o.t.service.OllamaService - Prompt: Tell me what date it is
+2025-04-11 10:44:33 INFO  c.o.t.service.OllamaService - Response from chat client: Today's date is April 11, 2025.
+2025-04-11 10:44:33 INFO  c.o.t.service.OllamaService - Prompt: Tell me what date and time it is
+2025-04-11 10:44:36 INFO  c.o.t.service.OllamaService - Response from chat client: The current date is April 11, 2025, and the current time is 10:44:34 AM.
+2025-04-11 10:44:36 INFO  c.o.t.service.OllamaService - Prompt: Tell me what time it is
+2025-04-11 10:44:39 INFO  c.o.t.service.OllamaService - Response from chat client: The current time is 10:44:37.192499400. Please note that this might be in a specific timezone depending on the system settings.
+2025-04-11 10:46:07 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.orio.tools_practice.tools.OllamaServiceTest]: OllamaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-11 10:46:07 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.orio.tools_practice.ToolsPracticeApplication for test class com.orio.tools_practice.tools.OllamaServiceTest
+2025-04-11 10:46:08 INFO  c.o.t.tools.OllamaServiceTest - Starting OllamaServiceTest using Java 21 with PID 19316 (started by macie in C:\Users\macie\tools\tools-practice)
+2025-04-11 10:46:08 INFO  c.o.t.tools.OllamaServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-11 10:46:09 INFO  c.o.t.tools.OllamaServiceTest - Started OllamaServiceTest in 2.012 seconds (process running for 3.054)
+2025-04-11 10:46:10 INFO  c.o.t.service.OllamaService - Prompt: Search for a text on the following topic: 'thought', process it for q&a and return it to me. Provide the found text for reference. Note: correct the json format if needed.
+2025-04-11 10:46:24 INFO  c.o.t.service.OllamaService - Response from chat client: {
+    "question": "What is the difference between Aristotelianism and Platonism regarding universals?",
+    "answer": "Unlike Platonism, Aristotelianism states that universals only exist to the extent that they are instantiated and not as changeless forms in an intelligible world.",
+    "referenceText": "Aristotelians hold that the mind is able to think about something by instantiating the essence of the object of thought.[22] So while thinking about trees, the mind instantiates tree-ness. This instantiation does not happen in matter, as is the case for actual trees, but in mind, though the universal essence instantiated in both cases is the same.[22] In contrast to Platonism, these universals are not understood as Platonic forms existing in a changeless intelligible world.[28] Instead, they only exist to the extent that they are instantiated. The mind learns to discriminate universals through abstraction from experience.[29]"
+}
+2025-04-11 10:47:20 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.orio.tools_practice.tools.OllamaServiceTest]: OllamaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-11 10:47:20 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.orio.tools_practice.ToolsPracticeApplication for test class com.orio.tools_practice.tools.OllamaServiceTest
+2025-04-11 10:47:20 INFO  c.o.t.tools.OllamaServiceTest - Starting OllamaServiceTest using Java 21 with PID 26436 (started by macie in C:\Users\macie\tools\tools-practice)
+2025-04-11 10:47:20 INFO  c.o.t.tools.OllamaServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-11 10:47:22 INFO  c.o.t.tools.OllamaServiceTest - Started OllamaServiceTest in 2.04 seconds (process running for 3.025)
+2025-04-11 10:47:23 INFO  c.o.t.service.OllamaService - Prompt: Search for a text on the following topic: 'thought', process it for q&a and return it to me. Provide the found text for reference. Note: correct the json format if needed.
+2025-04-11 10:48:40 INFO  c.o.t.service.OllamaService - Response from chat client: {
+    "question": "What is the difference between Aristotelianism and Platonism regarding universals?",
+    "answer": "Unlike Platonism, Aristotelianism states that universals only exist to the extent that they are instantiated and not as changeless forms in an intelligible world.",
+    "referenceText": "Aristotelians hold that the mind is able to think about something by instantiating the essence of the object of thought.[22] So while thinking about trees, the mind instantiates tree-ness. This instantiation does not happen in matter, as is the case for actual trees, but in mind, though the universal essence instantiated in both cases is the same.[22] In contrast to Platonism, these universals are not understood as Platonic forms existing in a changeless intelligible world.[28] Instead, they only exist to the extent that they are instantiated. The mind learns to discriminate universals through abstraction from experience.[29] This explanation avoids various of the objections raised against Platonism.[28]\n\nConceptualism is closely related to Aristotelianism. It states that thinking consists in mentally evoking concepts. Some of these concepts may be innate, but most have to be learned through abstraction from sense experience before they can be used in thought.[22]\n\nIt has been argued against these views that they have problems in accounting for the logical form of thought. For example, to think that it will either rain or snow, it is not sufficient to instantiate the essences of rain and snow or to evoke the corresponding concepts. The reason for this is that the disjunctive relation between the rain and the snow is not captured this way.[22] Another problem shared by these positions is the difficulty of giving a satisfying account of how essences or concepts are learned by the mind through abstraction.[22]"
+}
+2025-04-11 11:24:44 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.orio.tools_practice.tools.OllamaServiceTest]: OllamaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-11 11:24:45 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.orio.tools_practice.ToolsPracticeApplication for test class com.orio.tools_practice.tools.OllamaServiceTest
+2025-04-11 11:24:45 INFO  c.o.t.tools.OllamaServiceTest - Starting OllamaServiceTest using Java 21 with PID 6892 (started by macie in C:\Users\macie\tools\tools-practice)
+2025-04-11 11:24:45 INFO  c.o.t.tools.OllamaServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-11 11:24:47 INFO  c.o.t.tools.OllamaServiceTest - Started OllamaServiceTest in 1.86 seconds (process running for 2.829)
+2025-04-11 11:27:32 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.orio.tools_practice.tools.OllamaServiceTest]: OllamaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-11 11:27:32 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.orio.tools_practice.ToolsPracticeApplication for test class com.orio.tools_practice.tools.OllamaServiceTest
+2025-04-11 11:27:33 INFO  c.o.t.tools.OllamaServiceTest - Starting OllamaServiceTest using Java 21 with PID 10920 (started by macie in C:\Users\macie\tools\tools-practice)
+2025-04-11 11:27:33 INFO  c.o.t.tools.OllamaServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-11 11:27:35 INFO  c.o.t.tools.OllamaServiceTest - Started OllamaServiceTest in 1.945 seconds (process running for 2.956)
+2025-04-11 11:32:44 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.orio.tools_practice.tools.OllamaServiceTest]: OllamaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-11 11:32:44 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.orio.tools_practice.ToolsPracticeApplication for test class com.orio.tools_practice.tools.OllamaServiceTest
+2025-04-11 11:32:45 INFO  c.o.t.tools.OllamaServiceTest - Starting OllamaServiceTest using Java 21 with PID 27152 (started by macie in C:\Users\macie\tools\tools-practice)
+2025-04-11 11:32:45 INFO  c.o.t.tools.OllamaServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-11 11:32:46 INFO  c.o.t.tools.OllamaServiceTest - Started OllamaServiceTest in 2.048 seconds (process running for 3.068)

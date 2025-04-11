@@ -71,10 +71,40 @@ public class OllamaService {
         String systemJsonPrompt = "Respond in json format";
         log.info("Prompt: {}", prompt);
 
-        String resp = ChatClient.create(chatModel).prompt().system(systemJsonPrompt).user(prompt)
+        String resp = ChatClient.create(chatModel).prompt().system(systemPrompt).user(prompt)
                 .tools(new TextToolService())
                 .call().content();
         log.info("Response from chat client: {}", resp);
+        return resp;
+    }
+
+    public String getAnswerBasedOnDataSet() {
+        String jsonSchema = """
+                Respond in the following format:
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "question": {
+                                                "type": "string",
+                                                "description": "The question to be answered."
+                                            },
+                                            "answer": {
+                                                "type": "string",
+                                                "description": "The answer to the question."
+                                            },
+                                            "referenceText": {
+                                                "type": "string",
+                                                "description": "The text found for reference."
+                                            }
+                                        },
+                                        "required": ["question", "answer", "referenceText"]
+                                    }
+
+                                """;
+        String prompt = "What are solutions of the Schrödinger equation known for? Find data in one of the datasets";
+        String resp = ChatClient.create(chatModel).prompt().system(jsonSchema).user(prompt)
+                .tools(new TextToolService())
+                .call().content();
         return resp;
     }
 }
